@@ -15,6 +15,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.QQListActivity" />
+        <activity android:name=".activity.SimpleViewActivity" />
+        <activity android:name=".activity.GestureLockActivity" />
+        <activity android:name=".activity.ArcMenuActivity" />
+        <activity
+            android:name=".activity.LuckyPanActivity"
+            android:label="@string/title_activity_lucky_pan"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activity.RecyclerViewActivity"></activity>
+        <activity android:name=".activity.StaggeredViewActivity"></activity>
     </application>
 
 </manifest>

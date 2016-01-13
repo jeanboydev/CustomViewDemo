@@ -5,143 +5,52 @@
     android:layout_height="match_parent">
 
 
-    <com.jeanboy.viewdemo.view.CustomTitleView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        app:titleText="3712"
-        app:titleTextColor="#ff0000"
-        app:titleTextSize="40sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <com.jeanboy.viewdemo.view.CustomImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="100dp"
-        android:padding="10dp"
-        app:image="@mipmap/ic_launcher"
-        app:imageScaleType="center"
-        app:imageText="hello android ! "
-        app:imageTextColor="#ff0000"
-        app:imageTextSize="30sp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="simpleView"
+                android:text="自定义view" />
 
-    <com.jeanboy.viewdemo.view.CustomProgressBar
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentRight="true"
-        app:circleWidth="10dp"
-        app:firstColor="#aaff00"
-        app:secondColor="#ffaa00"
-        app:speed="20" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="qqListDelete"
+                android:text="QQListDelete" />
 
-    <com.jeanboy.viewdemo.view.CustomVolumControlBar
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="100dp"
-        app:bg="@mipmap/ic_launcher"
-        app:dotCount="8"
-        app:splitSize="25"
-        app:vbcircleWidth="10dp"
-        app:vbfirstColor="#ADC6E5"
-        app:vbsecondColor="#0362DB" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="gestureLock"
+                android:text="gestureLock" />
 
-    <com.jeanboy.viewdemo.view.CustomViewContainer
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_alignParentBottom="true"
-        android:background="#AA333333">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="arcMenu"
+                android:text="arcMenu" />
 
-        <TextView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="#FF4444"
-            android:gravity="center"
-            android:text="0"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="luckyPan"
+                android:text="luckyPan" />
 
-        <TextView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="#00ff00"
-            android:gravity="center"
-            android:text="1"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="#ff0000"
-            android:gravity="center"
-            android:text="2"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="#0000ff"
-            android:gravity="center"
-            android:text="3"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-    </com.jeanboy.viewdemo.view.CustomViewContainer>
-
-    <com.jeanboy.viewdemo.view.CustomViewContainer
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:background="#AA333333">
-
-        <TextView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:background="#E5ED05"
-            android:gravity="center"
-            android:text="0"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="#00ff00"
-            android:gravity="center"
-            android:text="1"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="#ff0000"
-            android:gravity="center"
-            android:text="2"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="#0000ff"
-            android:gravity="center"
-            android:text="3"
-            android:textColor="#FFFFFF"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
-    </com.jeanboy.viewdemo.view.CustomViewContainer>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="recyclerView"
+                android:text="recyclerView" />
+        </LinearLayout>
+    </ScrollView>
 
 
 </RelativeLayout>

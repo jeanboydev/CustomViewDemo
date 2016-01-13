@@ -9,6 +9,20 @@ import java.util.Set;
  */
 public class StringUtil {
 
+    public static StringUtil mInstance;
+
+    public StringUtil() {
+    }
+
+    public static StringUtil getInstance() {
+        if (mInstance == null) {
+            synchronized (StringUtil.class) {
+                if (mInstance == null)
+                    mInstance = new StringUtil();
+            }
+        }
+        return mInstance;
+    }
 
     public static String randomText() {
         Random random = new Random();

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ViewDemo</string>
+    <string name="title_activity_lucky_pan">LuckyPanActivity</string>
 </resources>
