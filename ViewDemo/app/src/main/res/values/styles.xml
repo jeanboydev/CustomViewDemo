@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/weixinActionOverflowButtonStyle</item>
     </style>
 
 
@@ -15,11 +16,18 @@
         <item name="android:windowExitAnimation">@anim/delete_btn_hide</item>
         <!-- 指定消失的动画xml -->
     </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+
+    <style name="weixinActionOverflowButtonStyle">
+        <item name="android:src">@drawable/f015</item>
+    </style>
 </resources>

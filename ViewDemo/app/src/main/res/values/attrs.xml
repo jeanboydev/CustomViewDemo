@@ -83,4 +83,18 @@
         <attr name="radius"/>
     </declare-styleable>
 
+
+
+    <attr name="cci_icon" format="reference" />
+    <attr name="cci_color" format="color" />
+    <attr name="cci_text" format="string" />
+    <attr name="cci_text_size" format="dimension" />
+
+    <declare-styleable name="ChangeColorIconView">
+        <attr name="cci_icon" />
+        <attr name="cci_color" />
+        <attr name="cci_text" />
+        <attr name="cci_text_size" />
+    </declare-styleable>
+
 </resources>

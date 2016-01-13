@@ -40,4 +40,8 @@ public class MainActivity extends AppCompatActivity {
     public void recyclerView(View v) {
         startActivity(new Intent(this, RecyclerViewActivity.class));
     }
+
+    public void weixinui(View v) {
+        startActivity(new Intent(this, WeixinUIActivity.class));
+    }
 }

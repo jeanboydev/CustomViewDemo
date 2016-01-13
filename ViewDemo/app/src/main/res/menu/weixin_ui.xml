@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jeanboy.viewdemo.activity.RecyclerViewActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100"
+        android:title="搜索"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100"
+        android:title="添加"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_group_chat"
+        android:icon="@drawable/iconfont_chat"
+        android:title="群聊" />
+    <item
+        android:id="@+id/action_add_friend"
+        android:icon="@drawable/iconfont_friend"
+        android:title="添加朋友" />
+    <item
+        android:id="@+id/action_scan"
+        android:icon="@drawable/iconfont_find"
+        android:title="扫一扫" />
+    <item
+        android:id="@+id/action_feed"
+        android:icon="@drawable/iconfont_me"
+        android:title="意见反馈" />
+
+</menu>

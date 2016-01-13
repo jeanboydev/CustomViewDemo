@@ -49,6 +49,11 @@
                 android:layout_height="wrap_content"
                 android:onClick="recyclerView"
                 android:text="recyclerView" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="weixinui"
+                android:text="weixinui" />
         </LinearLayout>
     </ScrollView>
 
